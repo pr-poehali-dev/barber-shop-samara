@@ -297,8 +297,8 @@ const Index = () => {
                 </div>
                 <CardTitle className="text-xl font-playfair text-foreground">Адрес</CardTitle>
                 <CardDescription className="text-base">
-                  г. Самара, ул. Ленинградская, 55<br/>
-                  ТЦ "Московский", 2 этаж
+                  <span>г. Самара, ул. Ленинградская, 55</span><br/>
+                  <span>ТЦ "Московский", 2 этаж</span>
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -324,8 +324,8 @@ const Index = () => {
                 </div>
                 <CardTitle className="text-xl font-playfair text-foreground">Режим работы</CardTitle>
                 <CardDescription className="text-base">
-                  Пн-Вс: 10:00 - 22:00<br/>
-                  Без выходных
+                  <span>Пн-Вс: 10:00 - 22:00</span><br/>
+                  <span>Без выходных</span>
                 </CardDescription>
               </CardHeader>
             </Card>
