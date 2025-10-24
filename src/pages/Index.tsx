@@ -296,10 +296,10 @@ const Index = () => {
                   <Icon name="MapPin" className="text-gold" size={32} />
                 </div>
                 <CardTitle className="text-xl font-playfair text-foreground">Адрес</CardTitle>
-                <CardDescription className="text-base">
-                  <span>г. Самара, ул. Ленинградская, 55</span><br/>
-                  <span>ТЦ "Московский", 2 этаж</span>
-                </CardDescription>
+                <div className="text-sm text-muted-foreground text-base">
+                  г. Самара, ул. Ленинградская, 55<br/>
+                  ТЦ "Московский", 2 этаж
+                </div>
               </CardHeader>
             </Card>
 
@@ -309,11 +309,11 @@ const Index = () => {
                   <Icon name="Phone" className="text-gold" size={32} />
                 </div>
                 <CardTitle className="text-xl font-playfair text-foreground">Телефон</CardTitle>
-                <CardDescription className="text-base">
+                <div className="text-sm text-muted-foreground text-base">
                   <a href="tel:+78461234567" className="text-gold hover:text-gold-light">
                     +7 (846) 123-45-67
                   </a>
-                </CardDescription>
+                </div>
               </CardHeader>
             </Card>
 
@@ -323,10 +323,10 @@ const Index = () => {
                   <Icon name="Clock" className="text-gold" size={32} />
                 </div>
                 <CardTitle className="text-xl font-playfair text-foreground">Режим работы</CardTitle>
-                <CardDescription className="text-base">
-                  <span>Пн-Вс: 10:00 - 22:00</span><br/>
-                  <span>Без выходных</span>
-                </CardDescription>
+                <div className="text-sm text-muted-foreground text-base">
+                  Пн-Вс: 10:00 - 22:00<br/>
+                  Без выходных
+                </div>
               </CardHeader>
             </Card>
           </div>
