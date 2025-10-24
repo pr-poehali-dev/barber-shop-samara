@@ -151,10 +151,10 @@ const Index = () => {
                     <Icon name="User" className="text-gold" size={48} />
                   </div>
                   <CardTitle className="text-2xl font-playfair text-center text-foreground">{master.name}</CardTitle>
-                  <CardDescription className="text-center">
-                    <p className="text-gold font-semibold mb-1">Опыт: {master.experience}</p>
-                    <p className="text-muted-foreground">{master.specialty}</p>
-                  </CardDescription>
+                  <div className="text-sm text-muted-foreground text-center">
+                    <div className="text-gold font-semibold mb-1">Опыт: {master.experience}</div>
+                    <div className="text-muted-foreground">{master.specialty}</div>
+                  </div>
                 </CardHeader>
               </Card>
             ))}
